@@ -1,0 +1,24 @@
+﻿@model DecodeAI.Web.Models.DecodeResult
+
+@{
+    ViewData["Title"] = "Düzenle ve Encode Et";
+}
+
+<h1>Decode Edilmiş Veriyi Düzenle</h1>
+
+<form asp-action="EncodeFile" method="post">
+    <input type="hidden" name="fileName" value="@Model.FileName" />
+
+    @if (!Model.IsBinary)
+    {
+        <textarea name="editedText" style="width:100%;height:300px;">@Model.DecodedText</textarea>
+    }
+    else
+    {
+        <p><strong>Bu bir binary dosyadır. İçeriği düzenleyemezsiniz.</strong></p>
+        <textarea disabled style="width:100%;height:300px;">@Model.DecodedText</textarea>
+    }
+
+    <br />
+    <button type="submit">Encode Et ve İndir</button>
+</form>

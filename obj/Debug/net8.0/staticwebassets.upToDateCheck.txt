@@ -1,0 +1,3 @@
+wwwroot\outputs\LANGUAGES
+wwwroot\uploads\LANGUAGES
+wwwroot\uploads\Russian.bin

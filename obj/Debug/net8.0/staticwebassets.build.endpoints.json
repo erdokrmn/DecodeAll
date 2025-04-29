@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "outputs/LANGUAGES",
+      "AssetFile": "outputs/LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k="
+        }
+      ]
+    },
+    {
+      "Route": "outputs/LANGUAGES.llgh8m8qcl",
+      "AssetFile": "outputs/LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "llgh8m8qcl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k="
+        },
+        {
+          "Name": "label",
+          "Value": "outputs/LANGUAGES"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LANGUAGES",
+      "AssetFile": "uploads/LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LANGUAGES.ftr5u9llq7",
+      "AssetFile": "uploads/LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftr5u9llq7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/LANGUAGES"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Russian.bin",
+      "AssetFile": "uploads/Russian.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:16:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Russian.dskdan5pmt.bin",
+      "AssetFile": "uploads/Russian.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:16:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dskdan5pmt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Russian.bin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿﻿START_BUTTON=Oyunu Başlat
+OPTIONS_BUTTON=Settings
+EXIT_BUTTON=Exit
+WELCOME_MESSAGE=Welcome to the Adventure!

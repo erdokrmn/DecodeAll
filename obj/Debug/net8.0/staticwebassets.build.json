@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "4GfYrDdI/D4w1/8CTtrr5EoDJqeJwFlaRzRq27bIOBQ=",
+  "Source": "DecodeAI",
+  "BasePath": "_content/DecodeAI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DecodeAI\\wwwroot",
+      "Source": "DecodeAI",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "outputs/LANGUAGES#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "llgh8m8qcl",
+      "Integrity": "SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\outputs\\LANGUAGES"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/LANGUAGES#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ftr5u9llq7",
+      "Integrity": "E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LANGUAGES"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/Russian#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dskdan5pmt",
+      "Integrity": "fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Russian.bin"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "outputs/LANGUAGES",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k="
+        }
+      ]
+    },
+    {
+      "Route": "outputs/LANGUAGES.llgh8m8qcl",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "llgh8m8qcl"
+        },
+        {
+          "Name": "label",
+          "Value": "outputs/LANGUAGES"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LANGUAGES",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LANGUAGES.ftr5u9llq7",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:15:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftr5u9llq7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/LANGUAGES"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E06ijfqeBHd64MJhb9pNduCzQk4Bb5dE/65iaIz/KOY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Russian.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:16:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Russian.dskdan5pmt.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:16:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dskdan5pmt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Russian.bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk="
+        }
+      ]
+    }
+  ]
+}

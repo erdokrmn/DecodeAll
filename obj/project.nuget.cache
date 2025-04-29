@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IeVS4+tLfX0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\DecodeAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erdo\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

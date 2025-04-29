@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
+      "PackagePath": "staticwebassets\\outputs"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
+      "PackagePath": "staticwebassets\\uploads"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
+      "PackagePath": "staticwebassets\\uploads\\Russian.bin"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DecodeAI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DecodeAI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DecodeAI.props",
+      "PackagePath": "build\\DecodeAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DecodeAI.props",
+      "PackagePath": "buildMultiTargeting\\DecodeAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DecodeAI.props",
+      "PackagePath": "buildTransitive\\DecodeAI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

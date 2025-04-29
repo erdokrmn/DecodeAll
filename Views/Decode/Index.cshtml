@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Dosya Yükle";
+}
+
+<h1>Dosya Yükle</h1>
+
+<form asp-controller="Decode" asp-action="UploadFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Yükle ve Decode Et</button>
+</form>
