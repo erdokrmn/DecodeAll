@@ -4,68 +4,190 @@
     {
         public static readonly List<string> CommonWords = new()
         {
-            // Türkçe
-            "bir", "ile", "çok", "gibi", "için", "ama",
 
-            // İngilizce
-            "the", "and", "this", "that", "with", "from",
+        "about",
+        "after",
+        "age",
+        "air",
+        "all",
+        "also",
+        "and",
+        "any",
+        "are",
+        "area",
+        "art",
+        "back",
+        "because",
+        "been",
+        "body",
+        "boy",
+        "but",
+        "can",
+        "can't",
+        "car",
+        "case",
+        "change",
+        "child",
+        "city",
+        "come",
+        "community",
+        "company",
+        "could",
+        "country",
+        "court",
+        "day",
+        "did",
+        "does",
+        "door",
+        "education",
+        "end",
+        "enough",
+        "even",
+        "everything",
+        "experience",
+        "face",
+        "family",
+        "father",
+        "first",
+        "foot",
+        "for",
+        "force",
+        "friend",
+        "from",
+        "game",
+        "get",
+        "girl",
+        "give",
+        "good",
+        "government",
+        "group",
+        "guy",
+        "had",
+        "hand",
+        "has",
+        "have",
+        "head",
+        "him",
+        "his",
+        "history",
+        "home",
+        "hour",
+        "house",
+        "how",
+        "idea",
+        "information",
+        "into",
+        "issue",
+        "its",
+        "just",
+        "kid",
+        "kind",
+        "know",
+        "law",
+        "level",
+        "life",
+        "like",
+        "line",
+        "look",
+        "make",
+        "man",
+        "market",
+        "member",
+        "mind",
+        "minute",
+        "moment",
+        "money",
+        "morning",
+        "most",
+        "mother",
+        "music",
+        "name",
+        "new",
+        "night",
+        "not",
+        "nothing",
+        "now",
+        "number",
+        "offer",
+        "only",
+        "order",
+        "other",
+        "our",
+        "out",
+        "over",
+        "part",
+        "party",
+        "people",
+        "place",
+        "plan",
+        "point",
+        "police",
+        "policy",
+        "power",
+        "president",
+        "problem",
+        "process",
+        "program",
+        "question",
+        "reason",
+        "research",
+        "result",
+        "right",
+        "room",
+        "say",
+        "school",
+        "see",
+        "sense",
+        "service",
+        "side",
+        "society",
+        "some",
+        "state",
+        "story",
+        "student",
+        "system",
+        "take",
+        "teacher",
+        "team",
+        "than",
+        "that",
+        "the",
+        "their",
+        "them",
+        "then",
+        "there",
+        "these",
+        "they",
+        "think",
+        "this",
+        "time",
+        "two",
+        "use",
+        "want",
+        "war",
+        "was",
+        "water",
+        "way",
+        "week",
+        "well",
+        "were",
+        "what",
+        "when",
+        "which",
+        "who",
+        "will",
+        "with",
+        "woman",
+        "won't",
+        "work",
+        "world",
+        "would",
+        "year",
+        "you",
+        "your"
 
-            // Rusça
-            "что", "как", "при", "если",
 
-            // Fransızca
-            "que", "pour", "dans", "avec",
 
-            // Almanca
-            "und", "der", "die", "ist", "nicht",
-
-            // İspanyolca
-            "que", "del", "con", "para", "como",
-
-            // İtalyanca
-            "che", "con", "per", "non",
-
-            // Portekizce
-            "que", "com", "para", "não",
-
-            // Flemenkçe
-            "het", "een", "dat", "van",
-
-            // İsveççe
-            "och", "det", "som", "med",
-
-            // Norveççe
-            "det", "som", "med", "ikke",
-
-            // Fince
-            "että", "tämä", "joka", "mikä",
-
-            // Çince
-            "的是在", // (çoklu karakterler, zaten Çince'de kelime kavramı farklıdır)
-
-            // Japonca
-            "のでに", // (Japonca kısa parçalar, aynı mantıkla)
-
-            // Korece
-            "에서이다", // (Korece parçalar)
-
-            // Arapça
-            "على", "إلى", "مع", 
-
-            // Yunanca
-            "και", "της", "από", "είναι",
-
-            // Lehçe
-            "sie", "dla", "jak", "nie",
-
-            // Çekçe
-            "když", "které", "není",
-
-            // Romence
-            "și", "în", "este", "care",
-
-            // Hintçe
-            "में", "से", "है", "और", "के"
         };
     }
 }

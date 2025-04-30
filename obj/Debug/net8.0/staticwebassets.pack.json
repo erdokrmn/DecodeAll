@@ -5,12 +5,64 @@
       "PackagePath": "staticwebassets\\outputs"
     },
     {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language (1).bin",
+      "PackagePath": "staticwebassets\\outputs\\language (1).bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language.bin",
+      "PackagePath": "staticwebassets\\outputs\\language.bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.de-DE.xnb",
+      "PackagePath": "staticwebassets\\uploads\\1_6_Strings.de-DE.xnb"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.es-ES.xnb",
+      "PackagePath": "staticwebassets\\uploads\\1_6_Strings.es-ES.xnb"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.hu-HU.xnb",
+      "PackagePath": "staticwebassets\\uploads\\1_6_Strings.hu-HU.xnb"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\CrashReporter.resources.dll",
+      "PackagePath": "staticwebassets\\uploads\\CrashReporter.resources.dll"
+    },
+    {
       "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
       "PackagePath": "staticwebassets\\uploads"
     },
     {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\PocoJSON.dll",
+      "PackagePath": "staticwebassets\\uploads\\PocoJSON.dll"
+    },
+    {
       "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
       "PackagePath": "staticwebassets\\uploads\\Russian.bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Sentry.System.Text.Json.dll-resources.dat",
+      "PackagePath": "staticwebassets\\uploads\\Sentry.System.Text.Json.dll-resources.dat"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\encrypted_language.txt",
+      "PackagePath": "staticwebassets\\uploads\\encrypted_language.txt"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1) (1).bin",
+      "PackagePath": "staticwebassets\\uploads\\language (1) (1).bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1).bin",
+      "PackagePath": "staticwebassets\\uploads\\language (1).bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language.bin",
+      "PackagePath": "staticwebassets\\uploads\\language.bin"
+    },
+    {
+      "Id": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\localization-assets-english(en)_assets_all.bundle",
+      "PackagePath": "staticwebassets\\uploads\\localization-assets-english(en)_assets_all.bundle"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DecodeAI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

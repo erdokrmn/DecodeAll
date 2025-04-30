@@ -50,9 +50,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "K4os.Compression.LZ4.Streams": {
+              "target": "Package",
+              "version": "[1.3.8, )"
+            },
             "SharpZipLib": {
               "target": "Package",
               "version": "[1.4.2, )"
+            },
+            "lz4net": {
+              "target": "Package",
+              "version": "[1.0.15.93, )"
             }
           },
           "imports": [

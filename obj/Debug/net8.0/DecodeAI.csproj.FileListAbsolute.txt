@@ -33,3 +33,9 @@ C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\DecodeAI.staticweb
 C:\Users\erdo\source\repos\DecodeAI\DecodeAI\obj\Debug\net8.0\DecodeAI.csproj.AssemblyReference.cache
 C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
 C:\Users\erdo\source\repos\DecodeAI\DecodeAI\obj\Debug\net8.0\DecodeAI.csproj.Up2Date
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\obj\Debug\net8.0\DecodeAI.sourcelink.json
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\LZ4.dll
+C:\Users\erdo\source\repos\DecodeAI\DecodeAI\bin\Debug\net8.0\LZ4pn.dll

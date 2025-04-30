@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DecodeAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cbd189aacfe619bd08cf31aadcf51afcb44a45c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce7a3db6ff9830449f8e65765c2bc905a285c168")]
 [assembly: System.Reflection.AssemblyProductAttribute("DecodeAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DecodeAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

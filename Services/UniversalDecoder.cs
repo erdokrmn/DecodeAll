@@ -5,6 +5,11 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DecodeAI.Services;
+using K4os.Compression.LZ4.Streams;
+using LZ4;
+using static DecodeAI.Services.UnityFSHeaderParser;
+using LZ4Stream = LZ4.LZ4Stream;
 
 namespace DecodeAI
 {
@@ -22,7 +27,9 @@ namespace DecodeAI
                 TryZlibDecompress,
                 TryBrotliDecompress,
                 TryDeflateDecompress,
-                TryBzip2Decompress
+                TryBzip2Decompress,
+                TryUnityFSDecompress
+
             };
 
             decodeMethods = new List<Func<byte[], (string?, bool, string)>>
@@ -31,7 +38,8 @@ namespace DecodeAI
                 TryUtf16LeDecode,
                 TryUtf16BeDecode,
                 TryLatin1Decode,
-                TryShiftJisDecode
+                TryShiftJisDecode,
+                TryUnityBundleStringScan
             };
 
             textExtractors = new List<Func<string, (string?, bool, string)>>
@@ -45,58 +53,62 @@ namespace DecodeAI
         {
             var methodChain = new List<string>();
             var currentData = originalData;
-            bool decodeAttempted = false;
-            bool anyDecodeSuccess = false;
 
-            // --- Decompress While Döngüsü ---
-            int decompressIndex = 0;
-            var (decompressedData, decompressSuccess, decompressMethod) = decompressMethods[decompressIndex](originalData);
-
-            if (decompressSuccess && decompressedData != null && decompressedData.Length > 0)
+            // --- Decompress adımı (yalnızca ilk başarılı olan) ---
+            foreach (var decompress in decompressMethods)
             {
-                currentData = decompressedData;
-                methodChain.Add(decompressMethod);
+                var (decompressedData, decompressSuccess, decompressMethod) = decompress(originalData);
+                if (decompressSuccess && decompressedData != null && decompressedData.Length > 0)
+                {
+                    currentData = decompressedData;
+                    methodChain.Add(decompressMethod);
+                    break; // Sadece ilk başarılı decompress uygulanır
+                }
             }
-            decompressIndex++;
-           
 
-            // --- Decode Döngüsü ---
+            // En iyi sonucu bulmak için geçici listeler
+            string? bestText = null;
+            double bestScore = 0.0;
+            List<string> bestMethodChain = new();
+
+            // --- Decode + Extract zincirleri ---
             foreach (var decode in decodeMethods)
             {
-                decodeAttempted = true;
                 var (decodedText, decodeSuccess, decodeMethod) = decode(currentData);
-                if (!decodeSuccess)
+                if (!decodeSuccess || string.IsNullOrWhiteSpace(decodedText))
                 {
                     await SaveFailedChainAsync(decodedText ?? string.Empty, new List<string>(methodChain) { decodeMethod });
                     continue;
                 }
 
-                anyDecodeSuccess = true;
-                methodChain.Add(decodeMethod);
-
-                // --- Extract Döngüsü ---
                 foreach (var extract in textExtractors)
                 {
                     var (extractedText, extractSuccess, extractMethod) = extract(decodedText!);
-                    if (!extractSuccess)
+                    if (!extractSuccess || string.IsNullOrWhiteSpace(extractedText))
                     {
-                        await SaveFailedChainAsync(extractedText ?? string.Empty, new List<string>(methodChain) { extractMethod });
+                        await SaveFailedChainAsync(extractedText ?? string.Empty, new List<string>(methodChain) { decodeMethod, extractMethod });
                         continue;
                     }
 
-                    if (IsLikelyHumanReadable(extractedText!))
+                    double score = ReadabilityScorer.GetHumanReadabilityScore(extractedText!);
+
+                    // Zincir kayıt işlemleri (her halükârda)
+                    var fullChain = new List<string>(methodChain) { decodeMethod, extractMethod };
+                    await SaveFailedChainAsync(extractedText!, fullChain); // Başarılı olsa da düşük skorsa "başarısız zincir" olarak kayıt
+
+                    if (score > bestScore)
                     {
-                        methodChain.Add(extractMethod);
-                        await SaveSuccessfulDecodeAsync(extractedText!, methodChain);
-                        return (extractedText!, methodChain, true);
-                    }
-                    else
-                    {
-                        await SaveFailedChainAsync(extractedText ?? string.Empty, new List<string>(methodChain) { extractMethod });
+                        bestScore = score;
+                        bestText = extractedText;
+                        bestMethodChain = fullChain;
                     }
                 }
+            }
 
-                methodChain.Remove(decodeMethod); // Eğer extractor adımları başarısızsa decodeMethod'u zincirden çıkar
+            if (!string.IsNullOrWhiteSpace(bestText) && bestScore >= 0.7)
+            {
+                await SaveSuccessfulDecodeAsync(bestText, bestMethodChain);
+                return (bestText, bestMethodChain, true);
             }
 
             return ("", new List<string>(), false);
@@ -104,8 +116,14 @@ namespace DecodeAI
 
 
 
+
         #region Decompress Methods
 
+
+        private (byte[]?, bool, string) TryUnityFSDecompress(byte[] input)
+        {
+            return UnityBlockDecompressor.TryUnityFSDecompress(input);
+        }
         private (byte[]?, bool, string) TryGzipDecompress(byte[] bytes)
         {
             try
@@ -175,6 +193,44 @@ namespace DecodeAI
 
         #region Decode Methods
 
+        private (string? decodedText, bool success, string method) TryUnityBundleStringScan(byte[] bytes)
+        {
+            // Unity bundle mı kontrol et
+            string magic = Encoding.ASCII.GetString(bytes.Take(8).ToArray());
+            if (!(magic.StartsWith("UnityFS") || magic.StartsWith("UnityRaw") || magic.StartsWith("UnityWeb")))
+                return (null, false, "UnityBundleStringScan");
+
+            // Null-terminated ASCII stringleri tara
+            var textBuilder = new StringBuilder();
+            int currentRun = 0;
+
+            for (int i = 0; i < bytes.Length; i++)
+            {
+                byte b = bytes[i];
+
+                if (b >= 32 && b <= 126) // yazdırılabilir ASCII
+                {
+                    textBuilder.Append((char)b);
+                    currentRun++;
+                }
+                else if ((b == 0 || b == 10 || b == 13) && currentRun >= 4)
+                {
+                    textBuilder.AppendLine(); // null, newline veya carriage return
+                    currentRun = 0;
+                }
+                else
+                {
+                    currentRun = 0;
+                }
+            }
+
+            string result = textBuilder.ToString().Trim();
+
+            return string.IsNullOrWhiteSpace(result)
+                ? (null, false, "UnityBundleStringScan")
+                : (result, true, "UnityBundleStringScan");
+        }
+
         private (string?, bool, string) TryPlainUtf8(byte[] bytes)
         {
             try { return (Encoding.UTF8.GetString(bytes), true, nameof(TryPlainUtf8)); } catch { return (null, false, nameof(TryPlainUtf8)); }
@@ -226,12 +282,6 @@ namespace DecodeAI
 
         #endregion
 
-        private bool IsLikelyHumanReadable(string text)
-        {
-            if (string.IsNullOrWhiteSpace(text)) return false;
-            double printableRatio = text.Count(c => (c >= 32 && c <= 126) || c == '\n' || c == '\r' || c == '\t') / (double)text.Length;
-            return printableRatio > 0.7;
-        }
 
         private async Task SaveSuccessfulDecodeAsync(string decodedText, List<string> methodChain)
         {

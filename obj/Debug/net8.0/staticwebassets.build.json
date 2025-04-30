@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4GfYrDdI/D4w1/8CTtrr5EoDJqeJwFlaRzRq27bIOBQ=",
+  "Hash": "K7V5mbab/eYg6vpAZbhY9NgOQ8k0UJRuo0yOlvEop9c=",
   "Source": "DecodeAI",
   "BasePath": "_content/DecodeAI",
   "Mode": "Default",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language (1).bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "outputs/language (1)#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "neox1gqp1x",
+      "Integrity": "z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\outputs\\language (1).bin"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language.bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "outputs/language#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o2fppdnk5g",
+      "Integrity": "cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\outputs\\language.bin"
+    },
     {
       "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
       "SourceId": "DecodeAI",
@@ -36,6 +78,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\outputs\\LANGUAGES"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.de-DE.xnb",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/1_6_Strings.de-DE#[.{fingerprint}]?.xnb",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hjl1zjjhvt",
+      "Integrity": "TcIfywEDmYdOIiRPvvuoqzLmu7nHPVV3NEVYAIT+7qo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1_6_Strings.de-DE.xnb"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.es-ES.xnb",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/1_6_Strings.es-ES#[.{fingerprint}]?.xnb",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lnnn4lw36",
+      "Integrity": "1dFHIzbhcfnWQDXg1ZQOumdljOlL0tva87PYOs5jK9U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1_6_Strings.es-ES.xnb"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.hu-HU.xnb",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/1_6_Strings.hu-HU#[.{fingerprint}]?.xnb",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "up6cxkjcli",
+      "Integrity": "/pF+g3rXuNeUY+trss8/M02MFYPoItpjsNMifdN5BVw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1_6_Strings.hu-HU.xnb"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\CrashReporter.resources.dll",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/CrashReporter.resources#[.{fingerprint}]?.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "933pdtczlt",
+      "Integrity": "G+MrAtvVAgao9nC9+WtEEUb1GiwC0Tu2d9AUmu5DtXA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\CrashReporter.resources.dll"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\encrypted_language.txt",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/encrypted_language#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "32ak552gbq",
+      "Integrity": "FRcHS/yYAe6BQ7cjsoiHM0InAEMGqxo3KAgRpRd4/ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\encrypted_language.txt"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1) (1).bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/language (1) (1)#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "neox1gqp1x",
+      "Integrity": "z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\language (1) (1).bin"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1).bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/language (1)#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o2fppdnk5g",
+      "Integrity": "cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\language (1).bin"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language.bin",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/language#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hj3p3ncwv7",
+      "Integrity": "LT0rI8vjkT5IC+0WAVG9h8WlW6My3eRLUfFcFe/1ROc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\language.bin"
     },
     {
       "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\LANGUAGES",
@@ -59,6 +269,48 @@
       "OriginalItemSpec": "wwwroot\\uploads\\LANGUAGES"
     },
     {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\localization-assets-english(en)_assets_all.bundle",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/localization-assets-english(en)_assets_all#[.{fingerprint}]?.bundle",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s2y03q2mpa",
+      "Integrity": "hNd67M1a1zdm5d2bcO1oQHugrvzTcIEfu98pz9+ers8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\localization-assets-english(en)_assets_all.bundle"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\PocoJSON.dll",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/PocoJSON#[.{fingerprint}]?.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fin98xl7sl",
+      "Integrity": "ueR8rs8jVC70gPWul53gquTXAU711SAxvOFmAyP2MmM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\PocoJSON.dll"
+    },
+    {
       "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
       "SourceId": "DecodeAI",
       "SourceType": "Discovered",
@@ -78,9 +330,194 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Russian.bin"
+    },
+    {
+      "Identity": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Sentry.System.Text.Json.dll-resources.dat",
+      "SourceId": "DecodeAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\",
+      "BasePath": "_content/DecodeAI",
+      "RelativePath": "uploads/Sentry.System.Text.Json.dll-resources#[.{fingerprint}]?.dat",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jroqvino11",
+      "Integrity": "IYldO6BVM1aXkg0pi2V5NEh7BKKXUerMSomgd8WWpQ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Sentry.System.Text.Json.dll-resources.dat"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "outputs/language (1).bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg="
+        }
+      ]
+    },
+    {
+      "Route": "outputs/language (1).neox1gqp1x.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "neox1gqp1x"
+        },
+        {
+          "Name": "label",
+          "Value": "outputs/language (1).bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg="
+        }
+      ]
+    },
+    {
+      "Route": "outputs/language.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k="
+        }
+      ]
+    },
+    {
+      "Route": "outputs/language.o2fppdnk5g.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\language.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2fppdnk5g"
+        },
+        {
+          "Name": "label",
+          "Value": "outputs/language.bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k="
+        }
+      ]
+    },
     {
       "Route": "outputs/LANGUAGES",
       "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\outputs\\LANGUAGES",
@@ -160,6 +597,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-SY4envcEF08P7bkDlU4SAcXDvbTpQwUgYECiRXWGb4k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.de-DE.hjl1zjjhvt.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.de-DE.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcIfywEDmYdOIiRPvvuoqzLmu7nHPVV3NEVYAIT+7qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:31:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjl1zjjhvt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1_6_Strings.de-DE.xnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcIfywEDmYdOIiRPvvuoqzLmu7nHPVV3NEVYAIT+7qo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.de-DE.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.de-DE.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcIfywEDmYdOIiRPvvuoqzLmu7nHPVV3NEVYAIT+7qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:31:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcIfywEDmYdOIiRPvvuoqzLmu7nHPVV3NEVYAIT+7qo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.es-ES.7lnnn4lw36.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.es-ES.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1dFHIzbhcfnWQDXg1ZQOumdljOlL0tva87PYOs5jK9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lnnn4lw36"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1_6_Strings.es-ES.xnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1dFHIzbhcfnWQDXg1ZQOumdljOlL0tva87PYOs5jK9U="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.es-ES.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.es-ES.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1dFHIzbhcfnWQDXg1ZQOumdljOlL0tva87PYOs5jK9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1dFHIzbhcfnWQDXg1ZQOumdljOlL0tva87PYOs5jK9U="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.hu-HU.up6cxkjcli.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.hu-HU.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/pF+g3rXuNeUY+trss8/M02MFYPoItpjsNMifdN5BVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "up6cxkjcli"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1_6_Strings.hu-HU.xnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/pF+g3rXuNeUY+trss8/M02MFYPoItpjsNMifdN5BVw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1_6_Strings.hu-HU.xnb",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\1_6_Strings.hu-HU.xnb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/pF+g3rXuNeUY+trss8/M02MFYPoItpjsNMifdN5BVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/pF+g3rXuNeUY+trss8/M02MFYPoItpjsNMifdN5BVw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/CrashReporter.resources.933pdtczlt.dll",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\CrashReporter.resources.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+MrAtvVAgao9nC9+WtEEUb1GiwC0Tu2d9AUmu5DtXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "933pdtczlt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/CrashReporter.resources.dll"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+MrAtvVAgao9nC9+WtEEUb1GiwC0Tu2d9AUmu5DtXA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/CrashReporter.resources.dll",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\CrashReporter.resources.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+MrAtvVAgao9nC9+WtEEUb1GiwC0Tu2d9AUmu5DtXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+MrAtvVAgao9nC9+WtEEUb1GiwC0Tu2d9AUmu5DtXA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/encrypted_language.32ak552gbq.txt",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\encrypted_language.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FRcHS/yYAe6BQ7cjsoiHM0InAEMGqxo3KAgRpRd4/ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:21:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "32ak552gbq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/encrypted_language.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FRcHS/yYAe6BQ7cjsoiHM0InAEMGqxo3KAgRpRd4/ho="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/encrypted_language.txt",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\encrypted_language.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FRcHS/yYAe6BQ7cjsoiHM0InAEMGqxo3KAgRpRd4/ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:21:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FRcHS/yYAe6BQ7cjsoiHM0InAEMGqxo3KAgRpRd4/ho="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language (1) (1).bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1) (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language (1) (1).neox1gqp1x.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1) (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "neox1gqp1x"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/language (1) (1).bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z7qMbCHmrL0e3vPrC6JTDeYa8FAA0BPETn7WGGNkmzg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language (1).bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language (1).o2fppdnk5g.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language (1).bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2fppdnk5g"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/language (1).bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGpWX1UPH0mvsQewO+4JBQWeP13YP7TV8hAgpMCJQ6k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LT0rI8vjkT5IC+0WAVG9h8WlW6My3eRLUfFcFe/1ROc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LT0rI8vjkT5IC+0WAVG9h8WlW6My3eRLUfFcFe/1ROc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/language.hj3p3ncwv7.bin",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\language.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LT0rI8vjkT5IC+0WAVG9h8WlW6My3eRLUfFcFe/1ROc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:23:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hj3p3ncwv7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/language.bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LT0rI8vjkT5IC+0WAVG9h8WlW6My3eRLUfFcFe/1ROc="
         }
       ]
     },
@@ -246,6 +1339,170 @@
       ]
     },
     {
+      "Route": "uploads/localization-assets-english(en)_assets_all.bundle",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\localization-assets-english(en)_assets_all.bundle",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11658376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hNd67M1a1zdm5d2bcO1oQHugrvzTcIEfu98pz9+ers8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hNd67M1a1zdm5d2bcO1oQHugrvzTcIEfu98pz9+ers8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/localization-assets-english(en)_assets_all.s2y03q2mpa.bundle",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\localization-assets-english(en)_assets_all.bundle",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11658376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hNd67M1a1zdm5d2bcO1oQHugrvzTcIEfu98pz9+ers8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s2y03q2mpa"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/localization-assets-english(en)_assets_all.bundle"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hNd67M1a1zdm5d2bcO1oQHugrvzTcIEfu98pz9+ers8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/PocoJSON.dll",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\PocoJSON.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ueR8rs8jVC70gPWul53gquTXAU711SAxvOFmAyP2MmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 08:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ueR8rs8jVC70gPWul53gquTXAU711SAxvOFmAyP2MmM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/PocoJSON.fin98xl7sl.dll",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\PocoJSON.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ueR8rs8jVC70gPWul53gquTXAU711SAxvOFmAyP2MmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 08:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fin98xl7sl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/PocoJSON.dll"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ueR8rs8jVC70gPWul53gquTXAU711SAxvOFmAyP2MmM="
+        }
+      ]
+    },
+    {
       "Route": "uploads/Russian.bin",
       "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Russian.bin",
       "Selectors": [],
@@ -324,6 +1581,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-fUD4VGAMiL03Rs3rscsUGEt5sqQjv9fJsASBbywwJkk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sentry.System.Text.Json.dll-resources.dat",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Sentry.System.Text.Json.dll-resources.dat",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYldO6BVM1aXkg0pi2V5NEh7BKKXUerMSomgd8WWpQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 10:06:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYldO6BVM1aXkg0pi2V5NEh7BKKXUerMSomgd8WWpQ8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sentry.System.Text.Json.dll-resources.jroqvino11.dat",
+      "AssetFile": "C:\\Users\\erdo\\source\\repos\\DecodeAI\\DecodeAI\\wwwroot\\uploads\\Sentry.System.Text.Json.dll-resources.dat",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYldO6BVM1aXkg0pi2V5NEh7BKKXUerMSomgd8WWpQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 10:06:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jroqvino11"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Sentry.System.Text.Json.dll-resources.dat"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYldO6BVM1aXkg0pi2V5NEh7BKKXUerMSomgd8WWpQ8="
         }
       ]
     }

@@ -1,3 +1,16 @@
+wwwroot\outputs\language (1).bin
+wwwroot\outputs\language.bin
 wwwroot\outputs\LANGUAGES
+wwwroot\uploads\1_6_Strings.de-DE.xnb
+wwwroot\uploads\1_6_Strings.es-ES.xnb
+wwwroot\uploads\1_6_Strings.hu-HU.xnb
+wwwroot\uploads\CrashReporter.resources.dll
+wwwroot\uploads\encrypted_language.txt
+wwwroot\uploads\language (1) (1).bin
+wwwroot\uploads\language (1).bin
+wwwroot\uploads\language.bin
 wwwroot\uploads\LANGUAGES
+wwwroot\uploads\localization-assets-english(en)_assets_all.bundle
+wwwroot\uploads\PocoJSON.dll
 wwwroot\uploads\Russian.bin
+wwwroot\uploads\Sentry.System.Text.Json.dll-resources.dat
